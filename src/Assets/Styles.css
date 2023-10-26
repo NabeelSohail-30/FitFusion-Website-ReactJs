@@ -115,6 +115,7 @@ img {
 /* Video */
 .video {
   padding: 10px 0 40px;
+  margin-top: 200px;
 }
 
 .video .video-content {
@@ -125,6 +126,24 @@ img {
 
 .video .video-preview {
   margin-bottom: 20px;
+}
+
+.preview-container {
+  position: relative;
+  text-align: center;
+}
+
+.video-preview {
+  width: 100%; /* Adjust the width as needed */
+  height: auto;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  cursor: pointer;
 }
 
 /* Testimonials */
