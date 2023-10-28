@@ -3,6 +3,7 @@ import NavBar from "../Components/NavBar";
 import Hero from "../Components/Hero";
 import VideoPreview from "../Components/VideoPreview";
 import Testimonial from "../Components/Testimonial";
+import Pricing from "../Components/Pricing";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Hero />
       <VideoPreview />
       <Testimonial />
+      <Pricing />
     </>
   );
 };
