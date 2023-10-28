@@ -144,6 +144,28 @@ img {
   left: 50%;
   transform: translate(-50%, -90%);
   cursor: pointer;
+  background: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  border-radius: 50%; /* Makes it a circle */
+  width: 100px; /* Adjust width and height as needed for your design */
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+}
+
+.play-button:hover {
+  background-color: rgba(255, 0, 0, 0.355); /* Red background on hover */
+}
+
+.play-button-icon {
+  font-size: 2rem; /* Adjust the size of the play icon */
+  color: red; /* Red play button */
+}
+
+.play-button-icon:hover {
+  color: black; /* Black play button on hover */
 }
 
 /* Testimonials */

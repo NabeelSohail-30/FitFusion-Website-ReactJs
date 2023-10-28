@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
-import "../Assets/Styles.css";
+import "../Assets/Styles.css"; // Make sure to define your styles in this file
 import PreviewImage from "../Assets/images/video-preview.jpg";
 import YouTube from "react-youtube";
 
@@ -34,7 +34,9 @@ const VideoPreview = () => {
               <>
                 <img src={PreviewImage} alt="video" className="video-preview" />
                 <div className="play-button" onClick={handleClick}>
-                  <FontAwesomeIcon icon={faPlay} />
+                  <div className="play-button-icon">
+                    <FontAwesomeIcon icon={faPlay} />
+                  </div>
                 </div>
               </>
             )}
