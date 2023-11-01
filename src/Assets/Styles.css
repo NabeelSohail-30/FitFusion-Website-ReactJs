@@ -169,25 +169,6 @@ img {
 }
 
 /* Testimonials */
-.testimonials {
-  padding: 40px 0;
-}
-
-.testimonials .testimonials-heading {
-  width: 700px;
-  margin-bottom: 40px;
-}
-
-.testimonials .testimonials-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-
-.testimonials .card p:nth-child(2) {
-  margin-top: 30px;
-  font-weight: bold;
-}
 
 /* Pricing */
 .pricing .pricing-grid {
@@ -277,6 +258,7 @@ img {
   padding: 10px 20px;
   border-radius: 5px;
   text-align: center;
+  color: var(--dark-color);
 }
 
 .faq ul.faq-menu li.active {

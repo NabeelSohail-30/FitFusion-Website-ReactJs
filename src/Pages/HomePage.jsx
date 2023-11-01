@@ -4,6 +4,7 @@ import Hero from "../Components/Hero";
 import VideoPreview from "../Components/VideoPreview";
 import Testimonial from "../Components/Testimonial";
 import Pricing from "../Components/Pricing";
+import FAQ from "../Components/FAQ";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <VideoPreview />
       <Testimonial />
       <Pricing />
+      <FAQ />
     </>
   );
 };
