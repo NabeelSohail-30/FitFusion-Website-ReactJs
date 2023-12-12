@@ -169,6 +169,46 @@ img {
 }
 
 /* Testimonials */
+.testimonials {
+  padding: 0px 0 40px 0;
+}
+
+.testimonials-heading {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 20px 12px;
+}
+
+.testimonials .testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.testimonials .card {
+  max-width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.testimonials .card p {
+  margin: 0;
+}
+
+.testimonials .card p:nth-child(2),
+.testimonials .card p:nth-child(3) {
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
 
 /* Pricing */
 .pricing .pricing-grid {

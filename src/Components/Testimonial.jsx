@@ -5,7 +5,7 @@ const Testimonial = () => {
   return (
     <section className="testimonials bg-dark">
       <div className="container">
-        <h3 className="testimonials-heading text-xl">
+        <h3 className="testimonials-heading text-lg">
           Don't just take our word for it, see the success stories from
           businesses just like yours.
         </h3>
@@ -22,9 +22,7 @@ const Testimonial = () => {
           <div className="card">
             <p>
               “As a small business owner, it's important to have a tool that can
-              help me keep track of everything. The Growth app has been a
-              lifesaver for me, allowing me to manage my contacts, schedule
-              appointments, and track progress all in one place.”
+              help me keep track of everything.”
             </p>
             <p>Johnathan Lee</p>
             <p>Red Bolt</p>
